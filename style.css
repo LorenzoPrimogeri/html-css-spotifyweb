@@ -3,11 +3,27 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
 }
 
 /* finish utility */
+.t-grey{
+    color: grey;
+}
+.t-white{
+    color: white;
+}
+.mg-t5{
+    margin-top: 5%;
+}
+.mg-b10{
+    margin-bottom: 10%;
+}
 .left{
   float: left;
+}
+.flex{
+    display: flex;
 }
 
 /******************* main section********************/
@@ -19,10 +35,26 @@ main{
 nav{
     width: 20%;
     height: 80vh;
-    border: 1px solid red;
+    border: 2px solid blue;
     background-color: black;
 }
-
+.n-section{ 
+    flex-direction: column;
+    margin-left: 10%;
+}
+.logo img{
+    width: 50%;
+}
+.n-section ul li{
+    list-style: none;
+    margin-bottom:3%;
+}
+.n-section .icon img{
+    width: 10%;
+}
+.n-section .icon span{
+    vertical-align: super;
+}
 
 /* finish nav section */
 
@@ -32,7 +64,7 @@ header{
     width: 80%;
     height: 10vh;
     background-color: black;
-    border: 1px solid red;
+    border: 2px solid red;
 }
 /* finish header section */
 
@@ -41,7 +73,7 @@ header{
     width: 80%;
     height: 70vh;
     background-color: hsl(219deg 26% 11%);
-    border: 1px solid yellow;
+    border: 2px solid yellow;
 }
 /* finish content section */
 
@@ -50,6 +82,6 @@ footer{
     width: 100%;
     height: 20vh;
     background-color: hsl(0deg 0% 16%);
-    border: 1px solid black;
+    border: 2px solid purple;
 }
 /* finish footer section */
