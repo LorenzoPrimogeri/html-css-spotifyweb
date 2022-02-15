@@ -33,6 +33,7 @@
 .flex{
     display: flex;
 }
+
 .align-center{
     align-items: center;
 }
@@ -64,7 +65,7 @@
 .w-60{
     width: 60%;
 }
-.w-70{
+.w-80{
     width: 80%;
 }
 .w-90{
@@ -72,12 +73,12 @@
 }
 /******************* main section********************/
 main{
-    flex-wrap: wrap;
     width: 100%;
+    flex-wrap: wrap;
 }
 /* start nav section */
 nav{
-    width: 20%;
+    width: 100%;
     height: 90vh;
     border: 2px solid blue;
     background-color: black;
@@ -123,19 +124,19 @@ nav{
     padding: 3px;
     background-color: grey;
 }
+.display-content{
+    display:contents;
+}
 /* finish nav section */
 
 /* start header section */
 header{
-    width: 80%;
+    width: 100%;
     height: 10vh;
     background-color: black;
     border: 2px solid red;
     justify-content: flex-end;
     align-items: center;
-}
-.header-section a{
-    border: 1px solid white;
 }
 .header-section .btn{
     border: 1px solid white;
@@ -146,7 +147,7 @@ header{
 /* finish header section */
 /* start content section */
 .content{
-    width: 80%;
+    width: 100%;
     height: 80vh;
     background-color: hsl(219deg 26% 11%);
     border: 2px solid yellow;
