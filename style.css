@@ -30,9 +30,6 @@
 .pd-r10{
     padding-right: 10%;
 }
-.left{
-  float: left;
-}
 .flex{
     display: flex;
 }
@@ -134,9 +131,8 @@ header{
     height: 10vh;
     background-color: black;
     border: 2px solid red;
-}
-.header-section{
     justify-content: flex-end;
+    align-items: center;
 }
 .header-section a{
     border: 1px solid white;
@@ -145,6 +141,7 @@ header{
     border: 1px solid white;
     border-radius: 20px;
     padding: 1% 2%;
+    text-decoration: none;
 }
 /* finish header section */
 /* start content section */
