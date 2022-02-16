@@ -412,7 +412,11 @@ i.fa-circle-play:hover{
     #hidden{
         display: none;
     }
+    #show{
+        display: flex;
+    }
     #show .w-80 img{
+
         margin-bottom: 10px;
     }
     header{
