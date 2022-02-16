@@ -8,15 +8,15 @@
 /* scrollbar */
 ::-webkit-scrollbar {
     width: 20px;
-  }
+}
   /* Track */
-  ::-webkit-scrollbar-track {
-    background: #f1f1f1; 
-  }  
+::-webkit-scrollbar-track {
+  background: #f1f1f1; 
+}  
   /* Handle */
   ::-webkit-scrollbar-thumb {
-    background: #888; 
-  }
+  background: #888; 
+}
   /* / scrollbar */
 li:hover a{
 color: white;
@@ -49,7 +49,6 @@ a{
 .mg-t5{
     margin-top: 5%;
 }
-
 .mg-b10{
     margin-bottom: 10%;
 }
@@ -96,15 +95,14 @@ a{
     vertical-align: middle;
 }
 .border-b{
- border-bottom: 1px solid grey;
- width: 90%;
+    border-bottom: 1px solid grey;
+    width: 90%;
 }
 .greenborder{
     border: 1px solid lightgreen;
     width: 35%;
     margin: auto;
 }
-
 .w-10{
     width: 10%;
 }
@@ -147,6 +145,9 @@ a{
 .border-radius{
     border-radius: 50%;
 }
+.flex-grow{
+    flex-grow: 1;
+}
 /* finish utility */
 /******************* main section********************/
 main{
@@ -161,14 +162,13 @@ main{
 }
 /* start nav section */
 nav{
-    height: 90vh;
     background-color: black;
     overflow-y: hidden;
+    height: 840px;
 }
 .n-section{ 
     flex-direction: column;
     margin-left: 10%;
-    justify-content: space-between;
     height: 100%;
 }
 #logo img{
@@ -233,7 +233,7 @@ header{
     text-decoration: none;
 }
 .header-section:hover .btn{
-    transform: scale(1.2);
+    transform: scale(1.1);
 }
 /* finish header section */
 /* start content section */
