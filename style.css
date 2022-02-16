@@ -409,7 +409,7 @@ i.fa-circle-play:hover{
     .box{
         width: calc(100% / 2 - 15px);
     }
-    .show{
+    #hidden{
         display: none;
     }
     #show .w-80 img{
