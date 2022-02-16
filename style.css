@@ -226,7 +226,7 @@ header{
     text-decoration: none;
 }
 .header-section:hover .btn{
-    transform: scale(1.25);
+    transform: scale(1.2);
 }
 /* finish header section */
 /* start content section */
@@ -323,6 +323,12 @@ footer{
 .time .icon{
     font-size: 25px;
 }
+i.fa-circle-play{
+    font-size: 30px;
+}
+i.fa-circle-play:hover{
+    transform:scale(1.2)
+}
 .minute{
     font-size: 15px;
 }
@@ -338,6 +344,9 @@ footer{
     background-color: white;
     height: 5px;
     font-size: 10rem;
+    justify-content: flex-end;
+    align-items: center;
+    
 }
 .volume-bar-black{
     background-color: grey;
@@ -345,8 +354,10 @@ footer{
     font-size: 10rem;
 }
 .volume-bar:hover .w-20{
-    background-color:lightgreen;
-    
+    background-color:lightgreen;   
+}
+.volume-bar-white:hover .circle{
+    visibility: visible;  
 }
 .circle{
     background-color: white;
@@ -354,6 +365,7 @@ footer{
     height: 13px;
     border: 1px solid green;
     border-radius: 50%;
+    visibility: hidden;
 }
 /* finish footer section */
 /* media queries*/
