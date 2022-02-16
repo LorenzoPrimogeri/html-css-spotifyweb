@@ -5,6 +5,19 @@
     box-sizing: border-box;
     font-family: 'Montserrat', sans-serif;
 }
+::-webkit-scrollbar {
+    width: 20px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background: #f1f1f1; 
+  }
+   
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: #888; 
+  }
 /* finish utility */
 .f-size{
     font-size: 15px;
@@ -15,14 +28,27 @@
 .t-white{
     color: white;
 }
+.mg-t2{
+    margin-top: 2%;
+}
+.pd-t2{
+    padding-top: 2%;
+}
 .mg-t5{
     margin-top: 5%;
 }
+
 .mg-b10{
     margin-bottom: 10%;
 }
 .mg-b5{
     margin-bottom: 5%;
+}
+.mg-b2{
+    margin-bottom: 2%;
+}
+.mg-b1{
+    margin-bottom: 1%;
 }
 .mg-r5{
     margin-right: 5%;
@@ -61,6 +87,9 @@
 .w-10{
     width: 10%;
 }
+.w-15{
+    width: 15%;
+}
 .w-20{
     width: 20%;
 }
@@ -73,11 +102,23 @@
 .w-80{
     width: 80%;
 }
+.w-85{
+    width: 85%;
+}
 .w-90{
     width: 90%;
 }
+.w-95{
+    width: 95%;
+}
+.w-100{
+    width: 100%;
+}
 .overflow{
     overflow-y:auto;
+}
+.border-radius{
+    border-radius: 50%;
 }
 /******************* main section********************/
 main{
@@ -88,7 +129,6 @@ main{
 nav{
     width: 100%;
     height: 90vh;
-    border: 2px solid blue;
     background-color: black;
 }
 .n-section{ 
@@ -96,7 +136,6 @@ nav{
     margin-left: 10%;
     justify-content: space-between;
     height: 100%;
-    overflow-y: auto;
 }
 #logo img{
     width: 50%;
@@ -146,7 +185,6 @@ header{
     width: 100%;
     height: 10vh;
     background-color: black;
-    border: 2px solid red;
     justify-content: flex-end;
     align-items: center;
 }
@@ -162,7 +200,25 @@ header{
     width: 100%;
     height: 80vh;
     background-color: hsl(219deg 26% 11%);
-    border: 2px solid yellow;
+}
+.content-nav{
+    width: 100%;
+    text-align: center;
+}
+.content-nav ul li{
+    margin-right: 3%;
+    display: inline-block;
+    list-style: none;
+}
+.conteiner{
+    margin: auto;
+}
+.box{
+    margin-right: 15px;
+    width: calc(100% / 6 - 15px);
+}
+.box img{
+    width: 100%;
 }
 /* finish content section */
 /* start footer section */
@@ -173,7 +229,6 @@ footer{
     width: 100%;
     height: 10vh;
     background-color: hsl(0deg 0% 16%);
-    border: 2px solid purple;
 }
 .f-section{
     height: 100%;
@@ -181,7 +236,7 @@ footer{
 }
 .song,.advice,.time{
     height: 100%;
-    border: 2px solid yellow;
+   
 }
 .song{
     height: 90%;
