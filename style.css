@@ -145,6 +145,9 @@ a{
 .border-radius{
     border-radius: 50%;
 }
+.f-size12{
+    font-size: 12px;
+}
 .flex-grow{
     flex-grow: 1;
 }
@@ -156,6 +159,7 @@ main{
 }
 .left{
     width: 230px;
+    
 }
 .right{
     width: calc(100% - 230px);
@@ -163,8 +167,7 @@ main{
 /* start nav section */
 nav{
     background-color: black;
-    overflow-y: hidden;
-    height: 840px;
+    height: calc(100% - 100px);
 }
 .n-section{ 
     flex-direction: column;
@@ -297,6 +300,9 @@ footer{
     height: 100px;
     background-color: hsl(0deg 0% 16%);
 }
+.icon-conteiner{
+    display: inline-flex;
+}
 .f-section{
     height: 100%;
     justify-content: space-between;
@@ -312,6 +318,7 @@ footer{
 .song-img{
     height: 62%;
     margin: 5%;
+   
 }
 .song .w-20{
     text-align: right;
