@@ -18,6 +18,9 @@
   background: #888; 
 }
   /* / scrollbar */
+.relative{
+    position: relative;
+}
 li:hover a{
 color: white;
 }
@@ -174,6 +177,14 @@ nav{
     display: flex;
     flex-direction: column;
     height: 100%;
+}
+.green{
+    position: absolute;
+    border:1px solid lightgreen;
+    width: 2px;
+    height: 25px;
+    top: 32%;
+    left: -10px;
 }
 #logo img{
     width: 50%;
@@ -368,7 +379,7 @@ i.fa-circle-play:hover{
     height: 5px;
     font-size: 10rem;
 }
-.volume-bar:hover .w-20{
+.volume-bar-white:hover{
     background-color:lightgreen;   
 }
 .volume-bar-white:hover .circle{
@@ -381,6 +392,12 @@ i.fa-circle-play:hover{
     border: 1px solid green;
     border-radius: 50%;
     visibility: hidden;
+}
+.w-30p{
+    width: 30px;
+}
+.w-50p{
+    width: 50px;
 }
 /* finish footer section */
 /* media queries*/
