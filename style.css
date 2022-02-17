@@ -387,8 +387,8 @@ i.fa-circle-play:hover{
 }
 .circle{
     background-color: white;
-    width: 12px;
-    height: 13px;
+    width: 25px;
+    height: 25px;
     border: 1px solid green;
     border-radius: 50%;
     visibility: hidden;
