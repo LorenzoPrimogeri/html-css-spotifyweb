@@ -427,7 +427,6 @@ i.fa-circle-play:hover{
     .right{
         width: calc(100% - 50px);
     }
-
     .box{
         width: calc(100% / 2 - 15px);
     }
@@ -436,10 +435,22 @@ i.fa-circle-play:hover{
     }
     #show{
         display: flex;
+        height: 100%;
+        flex-direction: column; 
+        justify-content: space-between;
+        text-align: center;
     }
     #show .w-80 img{
-
         margin-bottom: 10px;
+    }
+    nav img{
+        width: 60%;
+        
+    }
+    .border-r{
+        padding: 0;
+        margin: 7px;
+        margin-left: 11px;
     }
     header{
         width: calc(100% - 50px);
